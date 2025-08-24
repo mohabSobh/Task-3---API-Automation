@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-23T17:43:00 EEST" name="Surefire suite" finished-at="2025-08-23T17:43:06 EEST" duration-ms="6144">
+    <groups>
+    </groups>
+    <test started-at="2025-08-23T17:43:00 EEST" name="Surefire test" finished-at="2025-08-23T17:43:06 EEST" duration-ms="6144">
+      <class name="tests.AIBB_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:00 EEST" name="setup" finished-at="2025-08-23T17:43:01 EEST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserAndExtractId()[pri:1, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:01 EEST" name="createUserAndExtractId" description="Create a new user and extract its ID" finished-at="2025-08-23T17:43:04 EEST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAndExtractId -->
+        <test-method signature="loginAndExtractToken()[pri:2, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:04 EEST" name="loginAndExtractToken" description="Login and extract authentication token" finished-at="2025-08-23T17:43:05 EEST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndExtractToken -->
+        <test-method signature="updateUserAndVerify()[pri:3, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:05 EEST" name="updateUserAndVerify" description="Update user information and verify changes" finished-at="2025-08-23T17:43:05 EEST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserAndVerify -->
+        <test-method signature="deleteUserWithIdAndToken()[pri:4, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:05 EEST" name="deleteUserWithIdAndToken" description="Delete user with ID and token" finished-at="2025-08-23T17:43:06 EEST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserWithIdAndToken -->
+        <test-method signature="verifyUserDeletion()[pri:5, instance:tests.AIBB_Test@3cebbb30]" started-at="2025-08-23T17:43:06 EEST" name="verifyUserDeletion" description="Verify user deletion returns 404" finished-at="2025-08-23T17:43:06 EEST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserDeletion -->
+      </class> <!-- tests.AIBB_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
