@@ -14,7 +14,7 @@ An internet connection is required to execute the API calls.
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/mohabSobh/Task-3---API-Automation/tree/main>
 cd RESTAssuredAutomation
 ```
 
