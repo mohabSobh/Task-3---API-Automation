@@ -2,10 +2,10 @@
 This is an **API automation testing project** designed to validate key functionalities of the `reqres.in` API. The test cases cover complete user workflow including creation, authentication, update, and deletion of users with comprehensive reporting and validation.
 
 # Technology Stack
-- **Programming Language**: Java (JDK 8 or higher)
+- **Programming Language**: Java (JDK 24)
 - **Testing Framework**: TestNG
 - **API Testing Framework**: REST Assured
-- **Build Tool**: Maven (3.6.0 or higher)
+- **Build Tool**: Maven (3.9.11)
 - **Reporting**: Allure Reports
 
 An internet connection is required to execute the API calls.
